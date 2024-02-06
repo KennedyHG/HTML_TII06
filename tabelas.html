@@ -1,0 +1,111 @@
+<!DOCTYPE html><!--identificação do tipo de arquivo-->
+
+<html lang="pt-br"><!--abertura do html e definição do idioma-->
+
+<head>
+    <meta charset="UTF-8"><!--declarando o uso dos caracteres especiais-->
+    <title>Trabalhando com tabelas</title>
+</head>
+
+<body><!--corpo do meu arquivo-->
+    <h1>Trabalhando com tabelas</h1>
+    <p>No HTML os dados tabulares são aqueles que podem ser representados visualmente em forma de tabela.</p>
+
+    <p>A elaboração de uma tabela consiste em uma combinação de linhas e colunas, resultando em uma forma objetiva e
+        ordenada de expor as informações.</p>
+
+    <h3>Tabela simples:</h3>
+
+    <table border="1"> <!--"border" = Borda da tabela, não esta sendo mais usado e somente o estilo no CSS.-->
+        <tr> <!--linha da tabela "tr"-->
+            <td>Violão</td> <!--é a célula-->
+            <td>Guitarra</td>
+        </tr>
+
+        <tr>
+            <td>Violino</td>
+            <td>Piano</td>
+
+        </tr>
+
+    </table>
+
+    <h3>Tabela com título</h3>
+
+    <table border="1">
+        <tr>
+            <th>Instrumentos de corda</th>
+            <th>Instrumentos de sopro</th>
+
+        </tr>
+
+
+        <tr>
+            <td>Violino</td>
+            <td>Flauta</td>
+
+        </tr>
+
+        <tr>
+            <td>Violão</td>
+            <td>Corneta</td>
+
+        </tr>
+
+    </table>
+
+    <hr>
+
+    <h3>Cabeçalho vertical</h3>
+    <table border="1">
+        <tr>
+            <th>Livros</th> <!--"TH" Titulo da tabela em vertical-->
+            <td>Arte Moderna</td> <!--conteudos da tabela em horizontal-->
+            <td>Programação</td>
+        </tr>
+        <tr>
+            <th>Quantidade</th><!--"TH" Titulo da tabela em vertical-->
+            <td>500 livros</td>
+            <td>800 livros</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h3> Cabeçalho, corpo e um rodapé</h3>
+    <p> Estes elementos criam seções dentro da tabela que podem receber uma função direcionada, útil para a formatação da tabela com muitos dados</p>
+    <table border="1">
+        <caption> thead / tfoot / tbody </caption>
+        <thead>
+            <tr>
+                <th colspan="2"> coluna 1 </th>
+                <th> coluna 2 </th>
+                <th> coluna 3 </th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr> 
+                <td>Resultado 1 </td>
+                <td>Resultado 2 </td>
+                <td>Resultado 3 </td>
+            </tr>
+        </tfoot>
+        <tr>
+            <tbody>
+                <tr>
+                    <td rowspan="2"> conteudo a</td>
+                    <td>conteudo b</td>
+                    <td>conteudo c</td>
+                </tr>
+            </tbody>
+        </tr>
+    </table>
+
+</body>
+
+
+
+
+
+
+</html>
