@@ -1,0 +1,16 @@
+h1{
+    background-color: rgb(94, 211, 94);
+    font-family: arial, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+p{
+    font-family: arial;
+    margin: 20px;
+}
+
+table{
+border-radius: 20px;
+text-align: center;
+}
