@@ -1,16 +1,43 @@
+<style>
+
+body{
+    /*margin: 30px; espaçamento externo*/
+    margin: auto;
+    max-width: 720px; 
+}
+
 h1{
     background-color: rgb(94, 211, 94);
-    font-family: arial, sans-serif;
+    color: #373e3c;
+    font-family: cursive;
     text-align: center;
     border-radius: 10px;
+    width: 1000px;
 }
 
 p{
-    font-family: arial;
-    margin: 20px;
+    text-align: justify;
+    font-family: verdana, Arial, Helvetica, sans-serif;
+    padding: 5px;
+    width: 1000px;
 }
 
 table{
-border-radius: 20px;
+    width: 1000px;
+    background-color: #081e34;
+    color: aliceblue;
+    font-size: 10pt;
+    font-family: cursive;
+
+border-radius: 10px;
+border-spacing: 15px;
 text-align: center;
 }
+
+img{
+    height: 80px; /*altura*/
+    width: 100px;
+    border-radius: 5px;
+}
+
+</style>
