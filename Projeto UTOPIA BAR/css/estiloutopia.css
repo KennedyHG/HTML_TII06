@@ -1,0 +1,107 @@
+@charset "utf8";
+
+Body{
+    background-color: #fff;
+    font-size: sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+h1,h2,h3,h4,p,img{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+img{;
+    width: 100% ;
+
+}
+
+#topo{
+    border-bottom: solid 1px;
+    margin-bottom: 15px;
+}
+
+h1 img{
+    margin-top: 25px;
+    max-width: 100%;
+
+}
+
+#iconMenu.material-symbols-outlined{
+    text-align: center;
+    padding: 1%;
+}
+
+.faixa{
+    background-color: #b06761;
+    width: 100%;
+    padding: 5%;
+}
+
+#iconMenu.material-symbols-outlined{
+    text-align: center;
+    padding: 2%;
+}
+
+
+
+
+#iconMenu{
+    cursor: pointer;
+    min-height: 40px;
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px;
+    line-height: 40px;
+    padding-left: 1px;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+nav{
+    min-width: 40px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    overflow: hidden;
+    line-height: 40px;
+    padding left: 1%;
+    text-align: center;
+    
+}
+
+
+a{
+    font-size: 40px;
+    padding: 2%;
+    width: 100%;
+
+}
+
+
+nav a:link, nav a:visited, #iconMenu:link, #iconMenu:visited{
+    text-decoration: none;
+    color: #000;
+    transition: background-color 1s;
+    min-height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a:hover,
+nav a:focus,
+#iconMenu:hover,
+#iconMenu:focus {
+    color: #000;
+    transition: background-color 1s;
+    border-radius: 5%;
+}
