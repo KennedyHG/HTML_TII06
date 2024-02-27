@@ -1,17 +1,20 @@
 @charset "utf8";
 
 Body{
-    background-color: #fff;
+
     font-size: sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
-    max-width: 100%;
 }
 
-h1,h2,h3,h4,p,img{
+h1,h2,h3,h4,p,figure{
     margin: 0;
     padding: 0;
+}
+
+hr{
+    max-width: 200px;
 }
 
 img{
@@ -25,74 +28,49 @@ img{;
 }
 
 #topo{
+    background-color: black;
     border-bottom: solid 1px;
+    text-align: center;
     margin-bottom: 15px;
 }
 
 h1 img{
     margin-top: 25px;
-    max-width: 100%;
+    max-width: 200%;
 
 }
-
-#iconMenu.material-symbols-outlined{
-    text-align: center;
-    padding: 1%;
-}
-
-.faixa{
-    background-color: #b06761;
-    width: 100%;
-    padding: 5%;
-}
-
-#iconMenu.material-symbols-outlined{
-    text-align: center;
-    padding: 2%;
-}
-
-
-
 
 #iconMenu{
+    color: white;
     cursor: pointer;
     min-height: 40px;
     display: block;
     overflow: hidden;
-    border-bottom: 1px;
     line-height: 40px;
-    padding-left: 1px;
+    padding-left: 1%;
     font-size: 40px;
-    text-align: center;
-    margin-bottom: 15px;
 }
 
+
 nav{
-    min-width: 40px;
+    min-height: 40px;
     display: block;
     text-transform: uppercase;
     font-weight: bold;
     overflow: hidden;
     line-height: 40px;
     padding left: 1%;
-    text-align: center;
     
 }
 
 
-a{
-    font-size: 40px;
-    padding: 2%;
-    width: 100%;
-
-}
-
 
 nav a:link, nav a:visited, #iconMenu:link, #iconMenu:visited{
     text-decoration: none;
-    color: #000;
+    color: white;
     transition: background-color 1s;
     min-height: inherit;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -101,7 +79,85 @@ nav a:hover,
 nav a:focus,
 #iconMenu:hover,
 #iconMenu:focus {
-    color: #000;
+    background-color: #b06761;
+    color: black;
     transition: background-color 1s;
     border-radius: 5%;
 }
+
+/* regras para o FOOTER */
+
+.rodape{
+    border-top: solid #b06761 5px;
+    background-color: #000;
+    color: #7f7f80;
+    text-align: center;
+    width: 100%;
+}
+
+.rodape p, li{
+    font-size: 16px;
+}
+
+.rodape img{
+    margin: 0 5px;
+}
+
+.rodape-conteudo{
+    padding: 15px;
+    color: #fff;
+}
+
+.rodape-conteudo ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+#logo-rodape{
+    min-width: 146px;
+width: 150px;
+margin: 0 auto;
+}
+
+.endereco{
+    color: #fff;
+    margin-top: 10px;
+    line-height: 45px;
+}
+
+#logo-rodape img{
+    margin-top: 25px;
+    width: 200px;
+}
+
+.menu-rodape a{
+    text-decoration: none;
+    color: #7f7f80;
+}
+
+.menu-rodape a:hover{
+    color: #fff;
+
+}
+
+.redes img{
+    min-width:35px;
+    width: 35px;
+}
+/* regras para o CONTEUDO */
+
+.cont-cardapio{
+    background-color: #b06761;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+.card-petisco{
+
+    color: black;
+    padding: 10px 0;
+    width: 100%;
