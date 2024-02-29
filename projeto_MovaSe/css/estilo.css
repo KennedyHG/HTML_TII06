@@ -32,6 +32,12 @@ img {
 
 }
 
+
+
+
+
+
+
 /*Regras do Topo*/
 
 #topo {
@@ -89,6 +95,13 @@ nav a:focus,
     transition: background-color 1s;
     border-radius: 5%;
 }
+
+
+
+
+
+
+
 
 /* Regras para o FOOTER */
 
@@ -156,6 +169,11 @@ li {
 .assinatura p {
     padding-top: 3%;
 }
+
+
+
+
+
 
 /* Regras para o área de conteúdo principal */
 
@@ -254,30 +272,183 @@ li {
     /* text-transform: uppercase (deixar o texto em caixa alta "maiusculo"*/
 }
 
-.card-conteudo figure img{
-transition: 1s;
-filter: opacity(1);
+.card-conteudo figure img {
+    transition: 1s;
+    filter: opacity(1);
 }
 
-.card-conteudo a:hover img, .card-conteudo a:focus img{
+.card-conteudo a:hover img,
+.card-conteudo a:focus img {
     filter: opacity(0.6);
 }
 
-#titulo-video{
+#titulo-video {
     color: #fff;
-padding: 15px;
+    padding: 15px;
 }
 
-#video{
-    background-color: rgba(6,99,46,0.5);
+#video {
+    background-color: rgba(6, 99, 46, 0.5);
     text-align: center;
     width: 100%;
 }
 
-iframe{
+iframe {
     margin: auto;
     max-width: 80%;
     display: block;
-    padding: 2% 0; 
+    padding: 2% 0;
+}
+
+
+
+
+
+
+
+/* Regras para o CONTATO */
+
+#form-contato input {
+    height: 30px;
+}
+
+/* input: é uma regra */
+
+#form-contato label {
+    font-weight: bold;
+}
+
+
+/* Regra dos botões */
+#form-contato button {
+    border: none;
+    padding: 2px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#form-contato button:hover,
+#form-contato button:focus {
+    background-color: #ed6d19;
+    cursor: pointer;
+}
+
+.conteudo-info p {
+    margin: 5px;
+    text-align: center;
+}
+
+.localizacao {
+    text-align: center;
+}
+
+
+
+
+
+/* Regras para pagina PACOTE */
+
+#card-pacote {
+    background-color: rgba(6, 99, 46, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+.card-pacote-info {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1%;
+    box-shadow: grey 1px, 1px 5px;
+    margin: 20px auto;
+    max-width: 300px;
+
+}
+
+.pac-fotos,
+.pac-reserva {
+    background-color: #a98e12;
+    color: #000;
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+.pac-flex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* GAP: serve para espaçar ou ajustar dois objetos que estão em "display flex"*/
+    margin: 15px 0;
+}
+
+.pac-fotos a:hover,
+.pac-reserva a:hover,
+.pac-fotos a:focus,
+.pac-reserva a:focus {
+    background-color: #ecda87;
+    color: #fff;
+    transition: background-color 1s;
+    border-radius: 5%;
+
+}
+
+.pac-fotos a:link,
+.pac-reserva a:link,
+.pac-fotos a:visited,
+.pac-reserva a:visited {
+    color: #000;
+    transition: background-color 1s;
+    min-height: inherit;
+    padding: 1px 8px;
+    text-decoration: none;
+}
+
+
+
+/* Pagina ACESSORIOS */
+
+.acessorios {
+    margin: auto;
+    padding: 15px;
+}
+
+.produtos img {
+    max-width: 100px;
+    border: solid #7f7f80 3px;
+    border-radius: 100%;
+    box-shadow: grey 1px 1px 5px;
+}
+
+.produtos {
+    box-shadow: grey 1px 1px 5px;
+    text-align: center;
+    padding: 20px;
+    width: 220px;
+    height: 200px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.produtos h4 {
+    color: #ed6d19;
+    text-transform: uppercase;
+}
+
+.img-produto img {
+    width: 100px;
+    height: 100px;
+}
+
+.acesse {
+    text-transform: uppercase;
+    background-color: #ed6d19;
+    width: 100px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
