@@ -12,6 +12,12 @@
 
     <link rel="stylesheet" href="css/estiloutopia.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+
 </head>
 
 <body>
@@ -21,17 +27,17 @@
                 <img src="imagem/utopiaLogo-removebg-preview.png" alt="logo utopia">
             </h1>
 
-            <span id="iconMenu" class="material-symbols-outlined" onclick="clickMenu()">Cardápio
+            <span id="iconMenu" class="material-symbols-outlined" onclick="clickMenu()">
+                menu
             </span>
             <nav id="itens">
-                <a href="#" tabindex="1">Petiscos
-                </a>
-                <a href="#" tabindex="2">Lanches
-                </a>
-                <a href="#" tabindex="3">Bebidas
-                </a>
-                <a href="#" tabindex="4">Drinks
-                </a>
+                <a href="#" tabindex="1">Sobre Nós</a>
+                <!--tabindex é utilizado para a acessibilidade-->
+                <a href="cardapio.html" tabindex="2">Cardapio</a>
+                <a href="#" tabindex="3">Reserva</a>
+                <a href="#" tabindex="4">Localização</a>
+                <a href="contato.html" tabindex="4">Contato</a>
+                <a href="#" tabindex="4">Trabalhe Conosco</a>
             </nav>
         </div>
     </header>
@@ -49,44 +55,53 @@
 
 
 
-        <div class="card-petisco">
-            <h4>Fritas ou mandioca</h4>
-            <p>unidade</p>
-            <h4>R$26,00</h4>
-            <p>Saiba mais</p>
-            <img src="#" alt="Fritas ou mandioca">
+        <div class="petisco">
+            <div class="card-petisco">
+                <h4>Fritas ou mandioca</h4>
+                <p>unidade</p>
+                <span class="preço">R$26,00</span>
+                <p>Saiba mais</p>
+                <img src="#" alt="Fritas ou mandioca">
+            </div>
 
             <hr>
 
-            <h4>Dadinho de tapioca com geleia de pimenta delícia</h4>
-            <p>unidade</p>
-            <h4>R$29,00</h4>
-            <p>Saiba mais</p>
-            <img src="#" alt="Dadinho de tapioca">
+            <div class="card-petisco">
+                <h4>Dadinho de tapioca com geleia de pimenta delícia</h4>
+                <p>unidade</p>
+                <span class="preço">R$29,00</span>
+                <p>Saiba mais</p>
+                <img src="#" alt="Dadinho de tapioca">
+            </div>
+            <hr>
+
+            <div class="card-petisco">
+                <h4>Pastéis (sabores do dia)</h4>
+                <p>06 unidades</p>
+                <span class="preço">R$33,00</span>
+                <p>Saiba mais</p>
+                <img src="#" alt="Pastéis">
+            </div>
 
             <hr>
 
-            <h4>Pastéis (sabores do dia)</h4>
-            <p>06 unidades</p>
-            <h4>R$33,00</h4>
-            <p>Saiba mais</p>
-            <img src="#" alt="Pastéis">
+            <div class="card-petisco">
+                <h4>Torresmo *do Anizio*</h4>
+                <p>unidade</p>
+                <span class="preço">R$39,00</span>
+                <p>Saiba mais</p>
+                <img src="#" alt="Torresmo">
+            </div>
 
             <hr>
 
-            <h4>Torresmo *do Anizio*</h4>
-            <p>unidade</p>
-            <h4>R$39,00</h4>
-            <p>Saiba mais</p>
-            <img src="#" alt="Torresmo">
-
-            <hr>
-
-            <h4>Frango á passarinho ou Calabresa acebolada</h4>
-            <p>unidade</p>
-            <h4>R$49,00</h4>
-            <p>Saiba mais</p>
-            <img src="#" alt="Frango á passarinho ou Calabresa">
+            <div class="card-petisco">
+                <h4>Frango á passarinho ou Calabresa acebolada</h4>
+                <p>unidade</p>
+                <span class="preço">R$49,00</span>
+                <p>Saiba mais</p>
+                <img src="#" alt="Frango á passarinho ou Calabresa">
+            </div>
         </div>
 
         <hr>
@@ -394,6 +409,44 @@
         <br>
         <h3><b><u>Couver Artístico: R$ 10,00 em dias de apresentação.</u></b></h3>
 
+        <footer class="rodape">
+            <div class="endereco">
+                <h3>Localização</h3>
+
+                <p>Rua Tito, 54 Vila Romana</p>
+                <p>São Paulo - SP</p>
+                <hr>
+                <h3>Horário de Funcionamento:</h3>
+                <p>Segunda a sexta: 12:00 as 22:00 horas</p>
+                <p>Sabado: 11:00 as 00:00 horas</p>
+                <p>Domingo 12:00 as 23:00 horas</p>
+                <hr>
+            </div>
+            <div class="rodape-conteudo">
+                <div id="logo-rodape">
+                    <a href="index.html"><img src="imagensUtopiaBar/utopiaLogo-removebg-preview.png" alt="Logotipo"></a>
+                </div>
+                <div class="menu-rodape">
+                    <ul>
+                        <li><a href="index.html">Sobre Nós</a></li>
+                        <li><a href="#">Cardapio</a></li>
+                        <li><a href="#">Reserva</a></li>
+                        <li><a href="#">Localização</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="redes">
+                <aside>
+                    <a href="#"><img src="imagensUtopiaBar/facebook.png" alt="Logo do Facebook"></a>
+                    <a href="#"> <img src="imagensUtopiaBar/insta.png" alt="Logo do Instagram"></a>
+                </aside>
+            </div>
+            </div>
+
+        </footer>
 
 
 
