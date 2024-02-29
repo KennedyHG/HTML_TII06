@@ -310,6 +310,19 @@ iframe {
 
 /* Regras para o CONTATO */
 
+#form-contato {
+    margin: auto;
+    max-width: 700px;
+    width: 95%;
+}
+
+#form-contato input,
+#form-contato textarea {
+    border: solid 2px black;
+    width: 100%;
+    margin: 4px auto;
+}
+
 #form-contato input {
     height: 30px;
 }
@@ -325,7 +338,8 @@ iframe {
 #form-contato button {
     border: none;
     padding: 2px;
-    background-color: #fff;
+    background-color: #000;
+    color: white;
     border-radius: 5px;
 }
 
