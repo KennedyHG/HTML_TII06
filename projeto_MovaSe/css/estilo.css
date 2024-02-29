@@ -29,8 +29,8 @@ figure {
 
 img {
     max-width: 100%;
-
 }
+
 
 
 
@@ -175,6 +175,7 @@ li {
 
 
 
+
 /* Regras para o área de conteúdo principal */
 
 .conteudo {
@@ -306,6 +307,7 @@ iframe {
 
 
 
+
 /* Regras para o CONTATO */
 
 #form-contato input {
@@ -341,6 +343,10 @@ iframe {
 .localizacao {
     text-align: center;
 }
+
+
+
+
 
 
 
@@ -403,6 +409,13 @@ iframe {
     padding: 1px 8px;
     text-decoration: none;
 }
+
+
+
+
+
+
+
 
 
 
